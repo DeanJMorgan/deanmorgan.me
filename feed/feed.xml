@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Dean Morgan</title>
+	<subtitle>A personal blog site built with eleventy and hosted on github pages.</subtitle>
+	
+	<link href="https://deanmorgan.me/feed/feed.xml" rel="self"/>
+	<link href="https://deanmorgan.me/"/>
+	<updated>2021-05-22T00:00:00Z</updated>
+	<id>https://deanmorgan.me/</id>
+	<author>
+		<name>Dean James Morgan</name>
+		<email>hello@deanmorgan.me</email>
+	</author>
+	
+	<entry>
+		<title>This is a temp post.</title>
+		<link href="https://deanmorgan.me/posts/temp-post/"/>
+		<updated>2021-05-22T00:00:00Z</updated>
+		<id>https://deanmorgan.me/posts/temp-post/</id>
+		<content type="html">&lt;p&gt;This is a temp post.&lt;/p&gt;
+</content>
+	</entry>
+</feed>

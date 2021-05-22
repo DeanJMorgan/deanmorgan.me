@@ -1,0 +1,20 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Dean Morgan",
+  "language": "en",
+  "home_page_url": "https://deanmorgan.me/",
+  "feed_url": "https://deanmorgan.me/feed/feed.json",
+  "description": "A personal blog site built with eleventy and hosted on github pages.",
+  "author": {
+    "name": "Dean James Morgan",
+    "url": "https://deanmorgan.me/about-me/"
+  },
+  "items": [{
+      "id": "https://deanmorgan.me/posts/temp-post/",
+      "url": "https://deanmorgan.me/posts/temp-post/",
+      "title": "This is a temp post.",
+      "content_html": "<p>This is a temp post.</p>\n",
+      "date_published": "2021-05-22T00:00:00Z"
+    }
+  ]
+}
