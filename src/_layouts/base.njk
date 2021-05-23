@@ -7,10 +7,18 @@
     <title>{{ title or metadata.title }}</title>
     <link rel="preconnect" href="https://deanmorgan.me" crossorigin>
 
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-90103445-1', {'siteSpeedSampleRate': 100});
+      ga('send', 'pageview');
+    </script>
+
     <link rel="stylesheet" href="{{ '/assets/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/assets/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
+
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@deanjmorgan">
