@@ -1,15 +1,38 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title or metadata.title }}</title>
-    <meta name="description" content="{{ description or metadata.description }}">
+    <link rel="preconnect" href="https://deanmorgan.me" crossorigin>
+
     <link rel="stylesheet" href="{{ '/assets/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/assets/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@deanjmorgan">
+    <meta name="twitter:domain" content="deanmorgan.me">
+    <meta name="twitter:creator" content="@deanjmorgan">
+    <meta name="twitter:title" content="deanmorgan.me">
+    <meta name="twitter:image" content="https://deanmorgan.me/logo.png">
+    <meta name="twitter:description" content="Articles from a front-end developer on architecture, scalability and performance.">
+    <meta property="og:title" content="deanmorgan.me">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://deanmorgan.me">
+    <meta property="og:image" content="https://deanmorgan.me/logo.png">
+
+    <link rel="shortcut icon" href="/icon.png">
+    <link rel="apple-touch-icon" href="/icon.png">
+    <meta name="apple-mobile-web-app-title" content="deanmorgan">
+    <meta name="description" content="{{ description or metadata.description }}">
+
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- Place favicon.ico in the root directory -->
   </head>
+
   <body>
     <header>
       <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
