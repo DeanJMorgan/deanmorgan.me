@@ -58,11 +58,11 @@ module.exports = function(eleventyConfig) {
 
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("src/assets/img");
-  eleventyConfig.addPassthroughCopy("src/assets/css/**/*.css");
   eleventyConfig.addPassthroughCopy({"src/_rootfiles": "/"});
-
+  
+  eleventyConfig.addPassthroughCopy({"src/assets/build/css": "assets/css"});
   eleventyConfig.addPassthroughCopy({"src/assets/build/js": "assets/js"});
-  eleventyConfig.addWatchTarget("src/assets/build/js");
+  eleventyConfig.addWatchTarget("src/assets/build");
 
   // Unfortunately this means .eleventyignore needs to be maintained redundantly.
   // But without this the JS build artefacts doesn't trigger a build.
