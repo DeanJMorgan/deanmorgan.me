@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A personal blog site built with eleventy and hosted on github pages.",
   "scripts": {
+    "clean:dist": "rm -rf dist/",
+    "clean:packages": "rm -rf node_modules/",
+    "clean:assets": "rm -rf src/assets/build/",
     "build": "eleventy",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
@@ -10,7 +13,7 @@
     "watch:js": "rollup -c rollup.config.js -w",
     "build:scss": "sass src/assets/css:src/assets/build/css",
     "watch:scss": "sass src/assets/css:src/assets/build/css --watch",
-    "start": "npm-run-all build:js build:scss --parallel watch:js watch:scss serve",
+    "start": "npm-run-all clean:dist clean:assets build:js build:scss --parallel watch:js watch:scss serve",
     "debug": "DEBUG=* eleventy"
   },
   "repository": {
