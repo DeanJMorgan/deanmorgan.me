@@ -61,6 +61,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/css/**/*.css");
   eleventyConfig.addPassthroughCopy({"src/_rootfiles": "/"});
 
+  eleventyConfig.addPassthroughCopy({"src/assets/build/js": "assets/js"});
+  eleventyConfig.addWatchTarget("src/assets/build/js");
+
+  // Unfortunately this means .eleventyignore needs to be maintained redundantly.
+  // But without this the JS build artefacts doesn't trigger a build.
+  eleventyConfig.setUseGitIgnore(false);
+
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
     html: true,
