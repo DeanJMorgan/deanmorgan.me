@@ -100,7 +100,7 @@
 // @import "objects/objects.layout";
 // @import "objects/objects.media";
 // @import "objects/objects.flag";
-// @import "objects/objects.list-bare";
+@import "objects/objects.list-bare";
 // @import "objects/objects.list-inline";
 // @import "objects/objects.box";
 // @import "objects/objects.block";
@@ -108,6 +108,7 @@
 // @import "objects/objects.crop";
 // @import "objects/objects.table";
 // @import "objects/objects.pack";
+@import "objects/objects.flex";
 
 // UTILITIES
 // @import "utilities/utilities.clearfix";
@@ -118,7 +119,7 @@
 $tasty-offsets: false;
 // @import "utilities/utilities.widths";
 // @import "utilities/utilities.headings";
-// @import "utilities/utilities.spacings";
+@import "utilities/utilities.spacings";
 // @import "utilities/utilities.responsive-spacings";
 // @import "utilities/utilities.print";
 // @import "utilities/utilities.hide";

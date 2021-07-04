@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: About Me
-templateClass: tmpl-post
+templateClass: u-padding-small
 eleventyNavigation:
   key: About Me
   order: 3
