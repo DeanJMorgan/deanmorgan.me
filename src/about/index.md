@@ -1,19 +1,72 @@
 ---
 layout: base.njk
-title: About Me
+title: About
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
+  key: About
   order: 3
 ---
 
 # About Me
 
-Hi there, I'm Dean. I am a Frontend Web Developer from Darwen, UK. I specialise in building highly optimsed websites that deliver fast and reliable experiences to their users.
+Hi there, I'm Dean. I'm a Frontend Web Developer from Darwen, UK. I specialise in building highly optimsed websites that deliver fast and reliable experiences to their users.
 
-I have been building websites in one form or another since 1998 and during that time I've worked many different roles for many different companies. I am now working as a Frontend Developer for [Pinpoint Designs](https://www.pinpointdesigns.co.uk/), a specialist Magento 2 Agency based in Leeds.
+I've been building websites in one form or another since 1998 and during that time I've worked many different roles for many different companies. I am currently working as a Frontend Developer for [Pinpoint Designs](https://www.pinpointdesigns.co.uk/), a specialist Magento 2 Agency based in Leeds.
 
-I also produce music and have done so for around 20 years or so. For many years (throughout most of my 20s) I did this as a career working fulltime as Producer/DJ. During that time I was lucky to work with some of the biggest brands in dance music and was featured on various different releases around the world. This is not a site about my music, but I'm sure I'll dedicate a page too it at some point in the future as I am proud of the things I achieved.
+I also produce music and have done so for over 20 years. For many years (throughout most of my 20s) I did this as a career, working fulltime as Producer/DJ. During that time I was lucky enough to work with some of the biggest brands in dance music and was featured on various different releases around the world. This is not a site about my music career, but I'm sure I'll dedicate a page too it at some point in the future as I am proud of the things I achieved.
+
+## Skills I've acquired
+
+- Frontend Web Development
+- Backend Web Development *(Currently Learning)*
+- Search Engine Optimisation (SEO)
+- Server Management & DevOps
+- Graphic Design / Wireframing / Mockups
+- Video Editing and Animation
+- Music Production
+
+## Software I Use
+
+The following is a list of software and/or tools regularly during my day-to-day work. It's not an exhaustive list and there are probably some key items missing, stuff I just take for granted. I will probably not update this list as often as I should either, so please don't judge me by it.
+
+- VS Code
+- Github
+- WordPress
+- Magento
+- Drupal
+- Git
+- NodeJS
+- NPM
+- phpMyAdmin
+- Screaming Frog
+- Microsoft Edge
+- Windows 11
+- WSL2
+- Linux
+- Ubuntu
+- MacOS
+- nginx
+- MySQL
+- Figma
+- Adobe XD
+- Adobe Photoshop
+- Adobe Illustrator
+- Slack
+- Terminal - *Wasn't sure whether to include this, but I felt it deserved a spot as I spend so much time in there.*
+
+## Languages I Code
+
+- HTML
+- Nunjucks
+- CSS
+- SCSS
+- JavaScript
+- jQuery
+- React *(Currently Learning)*
+- PHP
+- Twig
+- SQL
+- Bash Scripting
 
 # About This Site
 
@@ -27,11 +80,11 @@ The following are some of the projects I am currently working on in my personal 
 
 ## This site
 
-This site is a project in it's own right. Over the years I've used a variety of different static site generators previously, I've even built my own which served me really well and was used to prototype a handful of sites which have since gone to production. However, this site is built using 11ty as I'd been watching the project for some time but never had a real oppurtunity to build anything with it.
+This site is a project in it's own right. Over the years I've used a variety of different static site generators previously, I've even built my own which served me really well and was used to prototype a handful of sites which have since gone to production. However, this site is built using 11ty as I'd been watching the project for some time, but never had a real oppurtunity to build anything with it.
 
 ### Future plans for this site
 
-Going forwards, my plan for this site is to integrate a custom CSS framework (based on InuitCSS), find a method of compiling JavaScript that is optimised for performance (This could be challenging, JavaScript is my weakest strength), build out the design into something more 'pretty', and to start creating content for readers other than myself. Sounds simple, the biggest challenge I face with it is time.
+Going forwards, my plan for this site is to integrate a custom CSS framework (based on InuitCSS), find a method of compiling JavaScript that is optimised for performance (This could be challenging, JavaScript is my weakest strength), build out the design into something more 'pretty', and to start creating content for readers other than myself. Sounds simple, the biggest challenge I face with it is time. *NOTE: This is so far proving true*
 
 ## Magento 2 Frontend Performance
 
@@ -44,3 +97,7 @@ The basic aim of this project is to create a brand new Magneto 2 theme from scra
 ## Magento 2 Boilerplate
 
 A project that serves as a starting point for other projects. It can be used to spin up brand new sites with a clean Magento 2 install, but with some additiona DX goodies such as scss compilation from site root (Based on Snowdog Frontools). This is just a personal piece so that I can easily set up new projects 'my way' but if it becomes useful to anyone else then that's great.
+
+## Tasty
+
+Originally this was going to be a CSS framework. I'd already built a prototype version which I'd been using for some time, and I was going to make a few improvements, rebrand it and release it as an open-source project. I've had some great ideas for this project that will take it beyond being a CSS framework, into something much more. I am also going to use this project to learn more about React development *Note: There is a bit of a clue in that statement as to the direction this project may be going*
