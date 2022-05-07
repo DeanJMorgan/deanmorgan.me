@@ -129,7 +129,7 @@ code {
 
 .highlight-line-active {
   background-color: #444;
-  background-color: rgba(69, 69, 69, 0.8);
+  background-color: hsla(0deg, 0%, 27%, 0.8);
 }
 
 .highlight-line-add {
